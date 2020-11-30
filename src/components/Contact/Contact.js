@@ -22,7 +22,7 @@ const contact = () => {
                     <div className="row">{items}</div>
                 </div>
                 <div className="footer">
-                    <medium>Site powered by ReactJS&nbsp;&nbsp;&nbsp;&nbsp;&copy; Copyright 2020</medium>
+                    <span>Site powered by ReactJS&nbsp;&nbsp;&nbsp;&nbsp;&copy; Copyright 2020</span>
                 </div>
             </div>
         </Aux>
