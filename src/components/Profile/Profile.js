@@ -5,7 +5,7 @@ import classNames from './Profile.css';
 const profile = () => {
     const details = {
         intro: "HII! I'M VINEET",
-        profile: "I am a recent graduate from RMIT university with prior industry experience in web development. I am currently seeking a full-time software developer role.",
+        profile: "I am a diligent and highly motivated graduate from RMIT University looking for a software developer role. I would be bringing to the table 2+ years of industry experience in writing full-stack code, excellent debugging skills, and a desire to upskill and improve my craft as a developer.",
     };
 
     return (
@@ -13,9 +13,6 @@ const profile = () => {
             <div className="profile" id="profile">
                 <p>{details.intro}</p>
                 <h3>{details.profile}</h3>
-                <a className="profile-btn text-center" href="https://drive.google.com/uc?export=download&id=1kY8FVWzLC9NrXreYDQbgM3l6dFtxCwqX">
-                    Download Resume
-                </a>
             </div>
         </Aux>
     );

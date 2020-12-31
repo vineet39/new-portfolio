@@ -19,28 +19,9 @@ h3 {
     width: 60%;
 }
 
-.profile p {
-    /* animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite; */
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* border-right: solid 3px var(--color-primary); */
+
+/* .profile p {
     width: 470px;
-}
-
-
-/* @keyframes animated-text {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes animated-cursor {
-    from {
-        border-right-color: var(--color-primary);
-    }
-    to {
-        border-right-color: transparent;
-    }
 } */
 
 .profile h3 {
@@ -103,7 +84,7 @@ h3 {
     }
     .profile p {
         font-size: 40px;
-        width: 320px;
+        /* width: 320px; */
     }
     .profile h3 {
         font-size: 22px;

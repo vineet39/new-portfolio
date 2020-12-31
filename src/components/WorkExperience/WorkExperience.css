@@ -7,8 +7,13 @@
         display: none;
     }
     
-    .svg {
+    .we-svg-top,
+    .we-svg-bottom {
         margin-top: -1px;
+    }
+    
+    .we-filler {
+        display: none;
     }
     
     @media screen and (max-width: 683px) {
@@ -35,5 +40,10 @@
         }
         .experience h2 {
             font-size: 1.6rem;
+        }
+        .we-filler {
+            display: block;
+            background-color: var(--color-primary);
+            height: 15px;
         }
     }
