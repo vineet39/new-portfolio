@@ -2,27 +2,26 @@
 .profile {
     align-items: center;
     padding-top: 10vw;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
     margin-top: 0px;
     background-color: var(--color-secondary);
 }
 
 .profile p,
 h3 {
-    color: var(--color-primary);
     margin: auto;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.profile h3 {
-    width: 60%;
+.profile p {
+    color: var(--color-primary);
 }
 
-
-/* .profile p {
-    width: 470px;
-} */
+.profile h3 {
+    width: 60%;
+    color: var(--grey-color);
+}
 
 .profile h3 {
     width: 75%;
@@ -70,6 +69,9 @@ h3 {
     .profile h3 {
         width: 90%;
     }
+    .profile p {
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width: 683px) {
@@ -84,14 +86,13 @@ h3 {
     }
     .profile p {
         font-size: 40px;
-        /* width: 320px; */
     }
     .profile h3 {
         font-size: 22px;
     }
     .profile {
         padding-top: 20vw;
-        padding-bottom: 10vw;
+        padding-bottom: 20vw;
     }
     .profile-btn {
         padding: 10px;

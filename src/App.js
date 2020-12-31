@@ -28,8 +28,8 @@ export default class App extends Component {
         <ScrollToTop />
         <Profile />
         <WorkExperience />
-        <Projects />
-        <Contact />
+         <Projects />
+      <Contact />
 
       </Aux>
     );

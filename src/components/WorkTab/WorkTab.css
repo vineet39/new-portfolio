@@ -15,9 +15,11 @@
     display: none;
 }
 
-ul {
+.resp-list {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    color: var(--grey-color);
+    margin-top: 20px;
 }
 
 .work-tab h4,
@@ -31,8 +33,10 @@ h5 {
 }
 
 .work-tab h5 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 22px;
+    color: var(--grey-color);
+    margin-top: 10px;
 }
 
 .year,
@@ -44,14 +48,14 @@ h5 {
     .work-tab {
         width: 80%;
         min-height: 0;
-        background-color: var(--color-primary);
         color: var(--color-secondary);
         border: none;
-        border-left: 2px solid var(--color-secondary);
+        border-left: 2px solid var(--grey-color);
         border-radius: 0px;
         margin: 0 auto;
         padding-bottom: 30px;
         margin-bottom: 20px;
+        background-color: var(--light-blue);
     }
     .skills {
         display: block;
@@ -60,7 +64,7 @@ h5 {
         position: relative;
         display: block;
         width: 80%;
-        color: var(--color-secondary);
+        color: var(--grey-color);
         font-weight: 600;
         margin: 0 auto;
         margin-top: 40px;
@@ -74,16 +78,15 @@ h5 {
         display: flex;
         width: 20px;
         height: 20px;
-        background-color: var(--color-primary);
         border-radius: 15px;
         position: absolute;
         margin-left: -11px;
         margin-top: 15px;
-        border: 2px solid var(--color-secondary);
+        border: 2px solid var(--color-primary);
+        background-color: var(--light-blue);
     }
     .work-tab h4,
     h5 {
-        color: var(--color-secondary);
         margin-left: 30px;
     }
     .resp-list {
