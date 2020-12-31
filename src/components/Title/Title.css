@@ -1,14 +1,11 @@
 .title {
     text-align: center;
-    margin-bottom: 5px;
     font-weight: bold;
-    padding-top: 10px;
     font-size: 2rem;
 }
 
 .title h2 {
     color: var(--color-primary);
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 50px;

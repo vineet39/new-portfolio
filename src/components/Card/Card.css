@@ -33,13 +33,14 @@
 }
 
 .card-body a {
-    background-color: var(--color-primary);
+    background-color: var(--green-color);
+    font-weight: bold;
 }
 
 .card-body a.btn:hover {
     background-color: #ffffff;
     border: 1px solid;
-    border-color: var(--color-primary);
+    border-color: var(--green-color);
 }
 
 .card-body a.btn:focus {
@@ -47,7 +48,7 @@
 }
 
 .card-body a.btn:hover .btntext {
-    color: var(--color-primary);
+    color: var(--green-color);
 }
 
 .options {

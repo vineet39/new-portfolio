@@ -3,8 +3,11 @@ html {
 }
 
 :root {
-    --color-primary: #990000 !important;
+    --color-primary: #2c3e50 !important;
     --color-secondary: #ffffff !important;
+    --grey-color: #696969 !important;
+    --light-blue: #f6f8f9 !important;
+    --green-color: #00d563 !important;
 }
 
 body {
@@ -12,6 +15,7 @@ body {
 }
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Jost', sans-serif;
     letter-spacing: 1.5px;
 }

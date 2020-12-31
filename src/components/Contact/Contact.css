@@ -1,11 +1,17 @@
 .contact-me {
-    color: var(--color-secondary);
+    color: var(--grey-color);
     text-align: center;
-    background-color: var(--color-primary);
+    background-color: var(--light-blue);
+    padding-top: 5vw;
 }
 
 .footer {
     padding-bottom: 15px;
-    font-weight: lighter;
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-me {
+        padding-top: 10vw;
+    }
 }

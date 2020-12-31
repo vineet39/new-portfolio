@@ -4,6 +4,11 @@
     }
 }
 
+.my-projects {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
 .pagination {
     display: flex;
     justify-content: center;
@@ -18,4 +23,11 @@
 
 .projects-bottom-svg {
     margin-bottom: -1px;
+}
+
+@media screen and (max-width: 500px) {
+    .my-projects {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
 }
