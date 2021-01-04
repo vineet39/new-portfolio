@@ -31,7 +31,7 @@ const workExperience = () => {
     );
 
     const allItemsExceptFirst = Object.keys(details).slice(1).map(key => (
-        <div className="carousel-item">
+        <div className="carousel-item" key={key}>
             <WorkTab key={key} companyname={details[key].companyname} detail={details[key].detail} responsibilities={details[key].responsibilities} />
         </div>
     ));
