@@ -32,8 +32,12 @@ const card = (props) => {
 };
 
 const sendNotification = (data, url) => {
-    axios.post('/openedURL.json', JSON.stringify(data)).then(window.open(url, '_blank'))
-        .catch(window.open(url, '_blank'));
+    axios.post('/openedURL.json', JSON.stringify(data)).then(() => {
+        window.open(url, '_blank');
+    }).catch(() => {
+        window.open(url, '_blank');
+    })
+        
 }
 
 export default card;
