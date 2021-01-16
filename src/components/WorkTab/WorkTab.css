@@ -7,9 +7,8 @@
     background-color: var(--color-secondary);
     color: var(--color-primary);
     font-weight: bold;
-    border-radius: 20px;
     min-height: 350px;
-    box-shadow: 5px 5px 10px 1px lightgrey;
+    box-shadow: 2px 5px 10px 5px lightgrey;
 }
 
 .circle {
