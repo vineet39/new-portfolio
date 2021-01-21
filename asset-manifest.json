@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.3aa59a2e.chunk.css",
-    "main.js": "/new-portfolio/static/js/main.9b611854.chunk.js",
-    "main.js.map": "/new-portfolio/static/js/main.9b611854.chunk.js.map",
+    "main.js": "/new-portfolio/static/js/main.84333cfb.chunk.js",
+    "main.js.map": "/new-portfolio/static/js/main.84333cfb.chunk.js.map",
     "runtime-main.js": "/new-portfolio/static/js/runtime-main.6c8eeb54.js",
     "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.6c8eeb54.js.map",
     "static/css/2.6056e389.chunk.css": "/new-portfolio/static/css/2.6056e389.chunk.css",
-    "static/js/2.9e6b813b.chunk.js": "/new-portfolio/static/js/2.9e6b813b.chunk.js",
-    "static/js/2.9e6b813b.chunk.js.map": "/new-portfolio/static/js/2.9e6b813b.chunk.js.map",
+    "static/js/2.808f9db9.chunk.js": "/new-portfolio/static/js/2.808f9db9.chunk.js",
+    "static/js/2.808f9db9.chunk.js.map": "/new-portfolio/static/js/2.808f9db9.chunk.js.map",
     "index.html": "/new-portfolio/index.html",
-    "precache-manifest.bbe2b669aaf71d21541ca55a8f1deda6.js": "/new-portfolio/precache-manifest.bbe2b669aaf71d21541ca55a8f1deda6.js",
+    "precache-manifest.78e6c6479b75a3539227ce3f023b1f58.js": "/new-portfolio/precache-manifest.78e6c6479b75a3539227ce3f023b1f58.js",
     "service-worker.js": "/new-portfolio/service-worker.js",
     "static/css/2.6056e389.chunk.css.map": "/new-portfolio/static/css/2.6056e389.chunk.css.map",
     "static/css/main.3aa59a2e.chunk.css.map": "/new-portfolio/static/css/main.3aa59a2e.chunk.css.map",
-    "static/js/2.9e6b813b.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.9e6b813b.chunk.js.LICENSE.txt",
+    "static/js/2.808f9db9.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.808f9db9.chunk.js.LICENSE.txt",
     "static/media/bank.jpg": "/new-portfolio/static/media/bank.6907bf0f.jpg",
     "static/media/burger.png": "/new-portfolio/static/media/burger.00d967dc.png",
     "static/media/carrental_one.jpg": "/new-portfolio/static/media/carrental_one.66b21d77.jpg",
@@ -23,13 +23,14 @@
     "static/media/font-awesome.min.css": "/new-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/jemena.png": "/new-portfolio/static/media/jemena.b244c809.png",
     "static/media/psd.png": "/new-portfolio/static/media/psd.f0377e65.png",
+    "static/media/reddit.png": "/new-portfolio/static/media/reddit.f138f24d.png",
     "static/media/rpc.jpg": "/new-portfolio/static/media/rpc.bec60248.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6c8eeb54.js",
     "static/css/2.6056e389.chunk.css",
-    "static/js/2.9e6b813b.chunk.js",
+    "static/js/2.808f9db9.chunk.js",
     "static/css/main.3aa59a2e.chunk.css",
-    "static/js/main.9b611854.chunk.js"
+    "static/js/main.84333cfb.chunk.js"
   ]
 }

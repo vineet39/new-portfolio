@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "902c0ff73144b351645100123259c3f7",
+    "revision": "174b7e2668fc465de9889a3c94606259",
     "url": "/new-portfolio/index.html"
   },
   {
-    "revision": "aa0d9322f76b3b229786",
+    "revision": "6f4bbd85f6484e828a95",
     "url": "/new-portfolio/static/css/2.6056e389.chunk.css"
   },
   {
-    "revision": "2fa5bf9d6bfbcceac650",
+    "revision": "ccda97a91088bd56eb96",
     "url": "/new-portfolio/static/css/main.3aa59a2e.chunk.css"
   },
   {
-    "revision": "aa0d9322f76b3b229786",
-    "url": "/new-portfolio/static/js/2.9e6b813b.chunk.js"
+    "revision": "6f4bbd85f6484e828a95",
+    "url": "/new-portfolio/static/js/2.808f9db9.chunk.js"
   },
   {
     "revision": "6c88e50fd546ef59bde03720d9766cbb",
-    "url": "/new-portfolio/static/js/2.9e6b813b.chunk.js.LICENSE.txt"
+    "url": "/new-portfolio/static/js/2.808f9db9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fa5bf9d6bfbcceac650",
-    "url": "/new-portfolio/static/js/main.9b611854.chunk.js"
+    "revision": "ccda97a91088bd56eb96",
+    "url": "/new-portfolio/static/js/main.84333cfb.chunk.js"
   },
   {
     "revision": "479325996ac7fdb04c9c",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0377e65995cc2c6039566b91d8733e5",
     "url": "/new-portfolio/static/media/psd.f0377e65.png"
+  },
+  {
+    "revision": "f138f24d07023c50f5a2a1de6c4d493c",
+    "url": "/new-portfolio/static/media/reddit.f138f24d.png"
   },
   {
     "revision": "bec60248a46241aa4dc86b83ec380537",
