@@ -11,7 +11,7 @@ import burger_img from '../../assets/images/burger.png';
 import psd_img from '../../assets/images/psd.png';
 import carrental_one_img from '../../assets/images/carrental_one.jpg';
 import carrental_two_img from '../../assets/images/carrental_two.jpg';
-import dating from '../../assets/images/dating.jpeg';
+import dating from '../../assets/images/dating.jpg';
 import cv_img from '../../assets/images/cv.jpg';
 import reddit_img from '../../assets/images/reddit.png';
 import 'antd/dist/antd.css';
