@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.1d0e2688.chunk.css",
-    "main.js": "/new-portfolio/static/js/main.9b73ca1a.chunk.js",
-    "main.js.map": "/new-portfolio/static/js/main.9b73ca1a.chunk.js.map",
+    "main.js": "/new-portfolio/static/js/main.4739c77f.chunk.js",
+    "main.js.map": "/new-portfolio/static/js/main.4739c77f.chunk.js.map",
     "runtime-main.js": "/new-portfolio/static/js/runtime-main.6c8eeb54.js",
     "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.6c8eeb54.js.map",
     "static/css/2.6056e389.chunk.css": "/new-portfolio/static/css/2.6056e389.chunk.css",
     "static/js/2.808f9db9.chunk.js": "/new-portfolio/static/js/2.808f9db9.chunk.js",
     "static/js/2.808f9db9.chunk.js.map": "/new-portfolio/static/js/2.808f9db9.chunk.js.map",
     "index.html": "/new-portfolio/index.html",
-    "precache-manifest.542bfb218a1cb3025dd3d97e2b875f66.js": "/new-portfolio/precache-manifest.542bfb218a1cb3025dd3d97e2b875f66.js",
+    "precache-manifest.a45100bc28cf8cee9c413afdea115860.js": "/new-portfolio/precache-manifest.a45100bc28cf8cee9c413afdea115860.js",
     "service-worker.js": "/new-portfolio/service-worker.js",
     "static/css/2.6056e389.chunk.css.map": "/new-portfolio/static/css/2.6056e389.chunk.css.map",
     "static/css/main.1d0e2688.chunk.css.map": "/new-portfolio/static/css/main.1d0e2688.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/carrental_one.jpg": "/new-portfolio/static/media/carrental_one.66b21d77.jpg",
     "static/media/carrental_two.jpg": "/new-portfolio/static/media/carrental_two.da2e8f9f.jpg",
     "static/media/cv.jpg": "/new-portfolio/static/media/cv.264428a4.jpg",
-    "static/media/dating.jpeg": "/new-portfolio/static/media/dating.034163ba.jpeg",
+    "static/media/dating.jpg": "/new-portfolio/static/media/dating.05ec9720.jpg",
     "static/media/font-awesome.min.css": "/new-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/jemena.png": "/new-portfolio/static/media/jemena.b244c809.png",
     "static/media/psd.png": "/new-portfolio/static/media/psd.f0377e65.png",
@@ -31,6 +31,6 @@
     "static/css/2.6056e389.chunk.css",
     "static/js/2.808f9db9.chunk.js",
     "static/css/main.1d0e2688.chunk.css",
-    "static/js/main.9b73ca1a.chunk.js"
+    "static/js/main.4739c77f.chunk.js"
   ]
 }
