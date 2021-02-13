@@ -1,7 +1,7 @@
     .experience {
         background-color: var(--light-blue);
         padding-top: 5vw;
-        padding-bottom: 5vw;
+        padding-bottom: 10vw;
     }
     
     .experience .work-row {
@@ -20,9 +20,12 @@
     .we-filler {
         display: none;
     }
-    /* .carousel-control-next span {
-        background-color: var(--color-primary) !important;
-    } */
+    
+    .carousel {
+        background-color: var(--color-secondary);
+        width: 85%;
+        margin: auto;
+    }
     
     .carousel-control-next-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2c3e50' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;

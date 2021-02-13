@@ -1,14 +1,14 @@
 .work-tab {
-    border: 5px solid;
-    border-color: var(--color-secondary);
     width: 60%;
     margin: auto;
     margin-bottom: 20px;
-    background-color: var(--color-secondary);
     color: var(--color-primary);
     font-weight: bold;
-    min-height: 350px;
-    box-shadow: 2px 5px 10px 5px lightgrey;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
 }
 
 .circle {
@@ -58,6 +58,7 @@ h5 {
         margin-bottom: 20px;
         background-color: var(--light-blue);
         box-shadow: none;
+        display: block;
     }
     .skills {
         display: block;
