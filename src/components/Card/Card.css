@@ -24,7 +24,7 @@
     margin-top: 10px;
 }
 
-.card-body a span {
+.btn span {
     color: #ffffff;
 }
 
@@ -32,22 +32,22 @@
     border-bottom: 5px solid var(--color-primary);
 }
 
-.card-body a {
+.card-body button {
     background-color: var(--green-color);
     font-weight: bold;
 }
 
-.card-body a.btn:hover {
+.btn:hover {
     background-color: #ffffff;
     border: 1px solid;
     border-color: var(--green-color);
 }
 
-.card-body a.btn:focus {
+.btn:focus {
     box-shadow: none !important;
 }
 
-.card-body a.btn:hover .btntext {
+.btn:hover .btntext {
     color: var(--green-color);
 }
 

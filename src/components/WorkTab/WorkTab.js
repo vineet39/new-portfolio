@@ -1,6 +1,6 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
-import classes from './WorkTab.css';
+import  './WorkTab.css';
 
 const workTab = (props) => {
     const items = Object.keys(props.responsibilities).map(key => 

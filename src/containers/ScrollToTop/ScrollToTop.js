@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from './ScrollToTop.css';
+import  './ScrollToTop.css';
 import Aux from '../../hoc/Aux';
 
 export default class ScrollToTop extends Component {

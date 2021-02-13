@@ -1,6 +1,6 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
-import classNames from './Profile.css';
+import './Profile.css';
 
 const profile = () => {
     const details = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
-import classes from './Title.css';
+import  './Title.css';
 
 const title = ( props ) => {
     return (

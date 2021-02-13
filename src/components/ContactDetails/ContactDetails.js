@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ContactDetails.css';
+import  './ContactDetails.css';
 
 const contactDetails = (props) => (
     <div className="col-lg-4 col-md-4 col-sm-12 main">

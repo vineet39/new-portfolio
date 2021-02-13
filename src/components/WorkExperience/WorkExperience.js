@@ -2,9 +2,9 @@ import React from 'react';
 import Aux from '../../hoc/Aux';
 import Title from '../Title/Title';
 import WorkTab from '../WorkTab/WorkTab';
-import classes from './WorkExperience.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
+import  './WorkExperience.css';
+import 'jquery';
+import 'popper.js';
 
 const workExperience = () => {
     const details = {

@@ -1,8 +1,7 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
-import Title from '../Title/Title';
 import ContactDetails from '../ContactDetails/ContactDetails';
-import classes from './Contact.css';
+import  './Contact.css';
 
 const contact = () => {
     const details = {
