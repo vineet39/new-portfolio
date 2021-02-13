@@ -25,7 +25,7 @@
     margin-bottom: -1px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .my-projects {
         padding-top: 10vw;
         padding-bottom: 10vw;

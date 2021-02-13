@@ -17,11 +17,11 @@ const card = (props) => {
                         <div className="options">
                             {(props.liveURL !== "" || props.videoURL !== "") &&
                                 <button className="btn mb-2" onClick={() => sendNotification(`${props.title} Live/Video Url`, videoOrLiveUrl)}>
-                                    <span className="btntext">{props.liveURL !== "" ? <span className="btntext">View Live</span> : <span className="btntext">View Video</span>}</span>
+                                    <span className="btntext">{props.liveURL !== "" ? <span className="btntext">View <i className="fa fa-external-link-square"></i></span> : <span className="btntext">View <i className="fa fa-youtube" id="youtube-icon"></i></span>}</span>
                                 </button>
                             }
                             <button className="btn mb-2 ml-1" onClick={() => sendNotification(`${props.title} Github Url`, url)}>
-                                <span className="btntext">View Repo</span>
+                                <span className="btntext">View <i className="fa fa-github"></i></span>
                             </button>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 2rem;
 }
 
@@ -8,12 +8,7 @@
     color: var(--color-primary);
     font-weight: bold;
     letter-spacing: 2px;
-    margin-bottom: 50px;
-}
-
-.title-inverted h2 {
-    color: white !important;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .title-bottom {
@@ -28,8 +23,9 @@
     background-color: var(--color-secondary) !important;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .title h2 {
         font-size: 1.6rem;
+        margin-bottom: 50px;
     }
 }

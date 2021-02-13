@@ -10,7 +10,7 @@
     padding-top: 50px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .contact-me {
         padding-top: 10vw;
     }
