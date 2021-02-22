@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 .profile {
     align-items: center;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-top: 120px;
+    padding-bottom: 130px;
     margin-top: 0px;
     background-color: var(--color-secondary);
 }
 
 .profile p,
-h3 {
+h1 {
     margin: auto;
     text-align: center;
     margin-bottom: 15px;
@@ -18,24 +18,18 @@ h3 {
     color: var(--color-primary);
 }
 
-.profile h3 {
-    width: 60%;
-    color: var(--grey-color);
-}
-
-.profile h3 {
-    width: 75%;
-    margin-top: 30px;
-}
-
 .profile p {
     font-weight: bold;
     font-size: 60px;
 }
 
-.profile h3 {
+.profile h1 {
     font-weight: 300;
     font-size: 30px;
+    line-height: normal;
+    color: var(--grey-color);
+    width: 75%;
+    margin-top: 30px;
 }
 
 .profile-btntext {
@@ -65,10 +59,15 @@ h3 {
     margin-top: -1px;
 }
 
+@media screen and (max-width: 991px) {
+    .profile {
+        padding-bottom: 100px;
+    }
+}
+
 @media screen and (max-width: 700px) {
-    .profile h3 {
+    .profile h1 {
         width: 90%;
-        line-height: 1.7;
     }
     .profile p {
         font-size: 45px;
@@ -88,18 +87,16 @@ h3 {
     .profile p {
         font-size: 40px;
     }
-    .profile h3 {
+    .profile h1 {
         font-size: 22px;
+        width: 90%;
     }
     .profile {
-        padding-top: 20vw;
-        padding-bottom: 20vw;
+        padding-top: 70px;
+        padding-bottom: 80px;
     }
     .profile-btn {
         padding: 10px;
         width: 180px;
-    }
-    .profile h3 {
-        width: 90%;
     }
 }

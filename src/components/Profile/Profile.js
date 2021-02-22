@@ -12,7 +12,7 @@ const profile = () => {
         <Aux>
             <div className="profile" id="profile">
                 <p>{details.intro}</p>
-                <h3>{details.profile}</h3>
+                <h1>{details.profile}</h1>
             </div>
         </Aux>
     );
