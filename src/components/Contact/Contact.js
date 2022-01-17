@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 import ContactDetails from '../ContactDetails/ContactDetails';
 import  './Contact.css';
 
@@ -15,7 +15,7 @@ const contact = () => {
     );
 
     return (
-        <Aux>
+        <Hoc>
             <div className="contact-me">
                 <div className="contact-details">
                     <div className="row">{items}</div>
@@ -24,7 +24,7 @@ const contact = () => {
                     <span>Site powered by ReactJS&nbsp;&nbsp;&nbsp;&nbsp;&copy; Copyright {new Date().getFullYear()}</span>
                 </div>
             </div>
-        </Aux>
+        </Hoc>
     );
 };
 

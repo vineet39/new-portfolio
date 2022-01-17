@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import  './ScrollToTop.css';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 
 export default class ScrollToTop extends Component {
   constructor(props) {
@@ -42,7 +42,7 @@ export default class ScrollToTop extends Component {
   render() {
     const { is_visible } = this.state;
     return (
-      <Aux>
+      <Hoc>
         <div className="scroll-to-top">
           {is_visible && (
             <button onClick={() => this.scrollToTop()} id="myBtn"><i className="fa fa-arrow-up"></i></button>
@@ -53,7 +53,7 @@ export default class ScrollToTop extends Component {
             <div className="progressBar" id="progressBar"></div>
           </div>
         </div>
-      </Aux>
+      </Hoc>
     );
   }
 }

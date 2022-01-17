@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 import Title from '../Title/Title';
 import Card from '../Card/Card';
 import bank_img from '../../assets/images/bank.jpg';
@@ -63,7 +63,7 @@ class Projects extends Component {
     };
     render() {
         return (
-            <Aux>
+            <Hoc>
                 <div className="container my-projects" id="my-projects">
                     <Title title="My Projects" inverted={false} />
                     <div className="row">
@@ -80,7 +80,7 @@ class Projects extends Component {
                             />
                         </div>
                 </div>
-            </Aux>
+            </Hoc>
         );
     }
 }

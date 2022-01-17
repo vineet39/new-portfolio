@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Aux from '../src/hoc/Aux';
+import Hoc from '../src/hoc/Hoc';
 import Projects from '../src/components/Projects/Projects';
 import Contact from '../src/components/Contact/Contact';
 import WorkExperience from '../src/components/WorkExperience/WorkExperience';
@@ -16,7 +16,7 @@ export default class App extends Component {
   }
   render() {
     return (
-      <Aux>
+      <Hoc>
         <Helmet>
           <html lang="en" />
           <meta name="keywords" content="Vineet, Bugtani, Software, Developer, Portfolio, Graduate, RMIT, Profile, Personal, Website, Github, Masters, IT, Information, Technology, Application, App, Engineer" />
@@ -30,7 +30,7 @@ export default class App extends Component {
         <WorkExperience />
         <Projects />
         <Contact />
-      </Aux>
+      </Hoc>
     );
   }
 

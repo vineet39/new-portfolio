@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 import  './WorkTab.css';
 
 const workTab = (props) => {
@@ -7,7 +7,7 @@ const workTab = (props) => {
         <li key={key}>{props.responsibilities[key]}</li>
     );
     return (
-        <Aux>
+        <Hoc>
             <div className="year"><span className="year-data">{props.year}</span></div>
             <div className="work-tab">
                 <div className="circle"></div>
@@ -18,7 +18,7 @@ const workTab = (props) => {
                     {items}
                 </ul>
             </div>
-        </Aux>
+        </Hoc>
     );
 };
 

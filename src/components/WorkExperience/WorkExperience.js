@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 import Title from '../Title/Title';
 import WorkTab from '../WorkTab/WorkTab';
 import  './WorkExperience.css';
@@ -37,7 +37,7 @@ const workExperience = () => {
     ));
 
     return (
-        <Aux>
+        <Hoc>
             <div className="experience">
                 <Title title="Work Experience" className="worktitle" />
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -60,7 +60,7 @@ const workExperience = () => {
                     {allItems}
                 </div>
             </div>
-        </Aux>
+        </Hoc>
     );
 };
 

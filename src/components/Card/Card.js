@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 import './Card.css';
 import axios from '../../../src/axios';
 
@@ -7,7 +7,7 @@ const card = (props) => {
     const url = props.url;
     const videoOrLiveUrl = props.liveURL !== "" ? props.liveURL : props.videoURL;
     return (
-        <Aux>
+        <Hoc>
             <div className="col-lg-4 col-md-6">
                 <div className="card my-card">
                     <img className="card-img-top" src={props.img} alt="Img Not available" />
@@ -27,7 +27,7 @@ const card = (props) => {
                     </div>
                 </div>
             </div>
-        </Aux>
+        </Hoc>
     )
 };
 

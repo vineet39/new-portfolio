@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
+import Hoc from '../../hoc/Hoc';
 import './Profile.css';
 
 const profile = () => {
@@ -9,12 +9,12 @@ const profile = () => {
     };
 
     return (
-        <Aux>
+        <Hoc>
             <div className="profile" id="profile">
                 <p>{details.intro}</p>
                 <h1>{details.profile}</h1>
             </div>
-        </Aux>
+        </Hoc>
     );
 };
 
