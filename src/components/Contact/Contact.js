@@ -5,9 +5,8 @@ import  './Contact.css';
 
 const contact = () => {
     const details = {
-        phone: { icon: "fa fa-mobile", detail: "0414092713" },
+        phone: { icon: "fa fa-mobile", detail: "0466697629" },
         email: { icon: "fa fa-envelope-square", detail: "vinit.bugtani@gmail.com" },
-        location: { icon: "fa fa-map-marker", detail: "Melbourne" }
     };
 
     const items = Object.keys(details).map(key =>

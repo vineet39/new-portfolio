@@ -13,7 +13,8 @@ import carrental_one_img from '../../assets/images/carrental_one.jpg';
 import carrental_two_img from '../../assets/images/carrental_two.jpg';
 import dating from '../../assets/images/dating.jpg';
 import cv_img from '../../assets/images/cv.jpg';
-import reddit_img from '../../assets/images/reddit.png';
+import portfolio_img from '../../assets/images/portfolio.jpg';
+import shopping_cart_img from '../../assets/images/shopping_cart.jpg';
 import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 import  './Projects.css';
@@ -21,10 +22,11 @@ import  './Projects.css';
 const baseURL = "https://github.com/";
 
 const details = [
+    { img: shopping_cart_img, title: "ECommerce (WIP)", skills: "ReactJS, Redux, NodeJS, MongoDB", url: baseURL + "vineet39/shoppingwebsite.git", liveURL: "", videoURL:"" },
+    { img: portfolio_img, title: "Portfolio", skills: "ReactJS, Jest, Enzyme", url: baseURL + "vineet39/new-portfolio.git", liveURL: "", videoURL:"" },
     { img: burger_img, title: "Burger Ordering Website", skills: "ReactJS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
     { img: cv_img, title: "Covid-19 Tracker Website", skills: "ReactJS, Material-UI", url: baseURL + "vineet39/react-covid-tracker.git", liveURL: "https://vineet39.github.io/react-covid-tracker/", videoURL:"" },
     { img: dating, title: "Dating Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "vineet39/dating-app", liveURL: "", videoURL:"https://youtu.be/AmxZA5F4Yy8" },
-    { img: reddit_img, title: "Reddit clone (In progress)", skills: "ReactJS, GraphQL, TypeScript, Postgresql, MikroORM, TypeGraphQL", url: baseURL + "vineet39/react-reddit", liveURL: "", videoURL:"" },
     { img: angular_img, title: "Admin Banking Website", skills: ".Net Core 3.0, Angular 8, TypeScript", url: baseURL + "rmit-wdt2020/admin-banking-application", liveURL: "", videoURL:"" },
     { img: jemena_img, title: "Jemena Gas App", skills: ".Net Core 3.0, React Native, Redux", url: baseURL + "rmit-s3734938-vineet-bugtani/react-native-jemena-gasmeters", liveURL: "", videoURL:"https://youtu.be/cnWWMJBE5Lc" },
     { img: rpc_img, title: "Rock Paper Scissors", skills: "HTML, CSS, JS", url: baseURL + "rmit-s3734938-vineet-bugtani/rock-paper-scissors-game-website", liveURL: "https://rmit-s3734938-vineet-bugtani.github.io/rock-paper-scissors-game-website/", videoURL:"" },
