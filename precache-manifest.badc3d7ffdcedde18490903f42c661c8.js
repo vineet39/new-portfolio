@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "932a6125b0f53e53955550f607654c72",
+    "revision": "fe4b33d73547d9681b8f6065a8610e85",
     "url": "/new-portfolio/index.html"
   },
   {
-    "revision": "6f4bbd85f6484e828a95",
+    "revision": "50506cc7a46e745381c9",
     "url": "/new-portfolio/static/css/2.6056e389.chunk.css"
   },
   {
-    "revision": "213cf8362d33703906c7",
-    "url": "/new-portfolio/static/css/main.b2e7c357.chunk.css"
+    "revision": "6300ec99c965be0d5fef",
+    "url": "/new-portfolio/static/css/main.fad57013.chunk.css"
   },
   {
-    "revision": "6f4bbd85f6484e828a95",
-    "url": "/new-portfolio/static/js/2.808f9db9.chunk.js"
+    "revision": "50506cc7a46e745381c9",
+    "url": "/new-portfolio/static/js/2.2c8f06a2.chunk.js"
   },
   {
     "revision": "6c88e50fd546ef59bde03720d9766cbb",
-    "url": "/new-portfolio/static/js/2.808f9db9.chunk.js.LICENSE.txt"
+    "url": "/new-portfolio/static/js/2.2c8f06a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "213cf8362d33703906c7",
-    "url": "/new-portfolio/static/js/main.7a8bd0a4.chunk.js"
+    "revision": "6300ec99c965be0d5fef",
+    "url": "/new-portfolio/static/js/main.3c864fd6.chunk.js"
   },
   {
     "revision": "479325996ac7fdb04c9c",
@@ -76,15 +76,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/new-portfolio/static/media/jemena.b244c809.png"
   },
   {
+    "revision": "e95afe2c9692318cb5dd83951f5bc58b",
+    "url": "/new-portfolio/static/media/portfolio.e95afe2c.jpg"
+  },
+  {
     "revision": "f0377e65995cc2c6039566b91d8733e5",
     "url": "/new-portfolio/static/media/psd.f0377e65.png"
   },
   {
-    "revision": "f138f24d07023c50f5a2a1de6c4d493c",
-    "url": "/new-portfolio/static/media/reddit.f138f24d.png"
-  },
-  {
     "revision": "bec60248a46241aa4dc86b83ec380537",
     "url": "/new-portfolio/static/media/rpc.bec60248.jpg"
+  },
+  {
+    "revision": "f81e88a870553e51191fa245a6ff4884",
+    "url": "/new-portfolio/static/media/shopping_cart.f81e88a8.jpg"
   }
 ]);
