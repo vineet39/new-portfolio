@@ -5,7 +5,7 @@ import  './Contact.css';
 
 const contact = () => {
     const details = {
-        phone: { icon: "fa fa-mobile", detail: "0466697629" },
+        phone: { icon: "fa fa-mobile", detail: "9833760969" },
         email: { icon: "fa fa-envelope-square", detail: "vinit.bugtani@gmail.com" },
     };
 

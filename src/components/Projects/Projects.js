@@ -22,7 +22,7 @@ import  './Projects.css';
 const baseURL = "https://github.com/";
 
 const details = [
-    { img: shopping_cart_img, title: "ECommerce (WIP)", skills: "ReactJS, Redux, NodeJS, MongoDB", url: baseURL + "vineet39/shoppingwebsite.git", liveURL: "", videoURL:"" },
+    { img: shopping_cart_img, title: "ECommerce (WIP)", skills: "ReactJS, Redux, NodeJS, MongoDB", url: baseURL + "vineet39/shoppingwebsite.git", liveURL: "https://vineet-proshop.herokuapp.com/", videoURL:"" },
     { img: portfolio_img, title: "Portfolio", skills: "ReactJS, Jest, Enzyme", url: baseURL + "vineet39/new-portfolio.git", liveURL: "", videoURL:"" },
     { img: burger_img, title: "Burger Ordering Website", skills: "ReactJS, Redux, Jest, Enzyme", url: baseURL + "vineet39/react-burger-app.git", liveURL: "https://vineet39.github.io/react-burger-app/", videoURL:"" },
     { img: cv_img, title: "Covid-19 Tracker Website", skills: "ReactJS, Material-UI", url: baseURL + "vineet39/react-covid-tracker.git", liveURL: "https://vineet39.github.io/react-covid-tracker/", videoURL:"" },
